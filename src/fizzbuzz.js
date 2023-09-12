@@ -1,13 +1,13 @@
 const fizzbuzz = (num) => {
   if (num % 15 === 0) {
-    return "FizzBuzz"
+    return "FizzBuzz";
   } else if (num % 5 === 0) {
-    return "Buzz"
+    return "Buzz";
   } else if (num % 3 === 0) {
-    return "Fizz"
+    return "Fizz";
   } else {
-    return num
+    return num;
   }
 }
 
-module.exports = fizzbuzz
+module.exports = fizzbuzz;
